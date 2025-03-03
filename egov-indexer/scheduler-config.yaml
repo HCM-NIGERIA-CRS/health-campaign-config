@@ -1,0 +1,13 @@
+defaults:
+  frequency: '10'
+scripts:
+  - name: population_coverage_heatmap
+    path: population_coverage_heatmap.py
+    queriesConfigKey: populationCoverageHeatMap
+    frequency: '10'
+    env: {}
+  - name: household_coverage_heatmap
+    path: household_coverage_heatmap.py
+    queriesConfigKey: householdCoverageHeatMap
+    frequency: '10'
+    env: {}
