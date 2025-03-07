@@ -104,7 +104,7 @@ serviceMaps:
               type: JSON
               dbType: JSONB
             - jsonPath: $.generatedResource.*.campaignId
-
+            - jsonPath: $.generatedResource.*.locale
 
 
     - version: 1.0
